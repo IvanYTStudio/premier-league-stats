@@ -184,7 +184,7 @@ with tab2:
     with tab2_header_col1:
         goals_type = st.selectbox(label="Goal type", options=['Scored', 'Conceded'])
     with tab2_header_col2:
-        goals_ground = st.selectbox(label="Ground", options=['All', 'Home', 'Away'], index=1, key='goals_ground')
+        goals_ground = st.selectbox(label="Ground", options=['All', 'Home', 'Away'], key='goals_ground')
     with tab2_header_col3:
         goals_top = st.selectbox(label='Top', options=[5, 10, 20, 'All'], index=1, key='goals_key')
     
