@@ -1,0 +1,78 @@
+.block-container {
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+}
+
+#premier-league-2011-2012-2022-2023 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.stTextLabelWrapper  {
+height: 30px;
+font-size: 150px;
+}
+
+#most-own-goals {
+    padding-top: 3px;
+    text-align: center;
+}
+
+#most-penalties {
+    padding-top: 3px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.css-1r6slb0 {
+    text-align: center;
+}
+
+#most-penalties {
+    padding-bottom: 0px;
+}
+
+.e1vioofd1 {
+    font-size: 10rem;
+    text-align: center;
+}
+
+.esravye2 {
+    font-size: 4rem;
+    text-align: center;
+    align-items: center;
+}
+
+.e15ugz7a0 {
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+#page_title {
+    font-size: 4rem;
+    padding-bottom: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#team_seasons {
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#stat_title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6rem;
+    padding-top: 35px;
+    padding-left: 30px;
+}
+
+button[title="View fullscreen"] {
+    display: none;
+}
