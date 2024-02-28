@@ -5,6 +5,16 @@
     padding-bottom: 0px;
 }
 
+.stApp  {
+    background-image: url("https://i.ibb.co/pdyKYCV/green.png");
+    background-size: cover;
+}
+
+header[data-testid="stHeader"] {
+	background : rgba(255, 255, 255, 0);
+}
+
+
 #premier-league-2011-2012-2022-2023 {
     padding-top: 5px;
     padding-bottom: 5px;
