@@ -165,7 +165,7 @@ with tab1:
 
     break_col_1, tab1_col_1, tab1_col_2, tab1_col_3, break_col_1  = st.columns([1.3,0.25,0.7,0.25,1])
 
-    for club, result in most_wins_draws_loses(result_type=results_type, ground = results_ground, rows=results_top).iteritems():
+    for club, result in most_wins_draws_loses(result_type=results_type, ground = results_ground, rows=results_top).items():
                 with tab1_col_1:
                     try:
                         st.image(f'Club logos/{club}.png', width=30)
@@ -211,7 +211,7 @@ with tab3:
         
     break_col_1, tab3_col_1, tab3_col_2, tab3_col_3, break_col_1  = st.columns([1.3,0.25,0.7,0.25,1])
 
-    for club, goals in most_own_goals(rows=own_goals_top).iteritems():
+    for club, goals in most_own_goals(rows=own_goals_top).items():
         with tab3_col_1:
             try:
                 st.image(f'Club logos/{club}.png', width=30)
@@ -238,7 +238,7 @@ with tab4:
 
     break_col_1, tab4_col_1, tab4_col_2, tab4_col_3, break_col_2, tab4_col_4, tab4_col_5, tab4_col_6, break_col_3  = st.columns([1.3,0.25,0.7,0.25,0.39,0.25, 0.7, 0.25,1])
 
-    for club, goals in penalty_results(rows=penalties_top).iteritems():
+    for club, goals in penalty_results(rows=penalties_top).items():
         with tab4_col_1:
             try:
                 st.image(f'Club logos/{club}.png', width=30)
