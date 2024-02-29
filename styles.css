@@ -10,6 +10,10 @@
     background-size: cover;
 }
 
+#stat_title, #page_title {
+	pointer-events: none;
+}
+
 header[data-testid="stHeader"] {
 	background : rgba(255, 255, 255, 0);
 }
@@ -21,8 +25,8 @@ header[data-testid="stHeader"] {
 }
 
 .stTextLabelWrapper  {
-height: 30px;
-font-size: 150px;
+	height: 30px;
+	font-size: 150px;
 }
 
 #most-own-goals {
