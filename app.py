@@ -225,13 +225,13 @@ with tab3:
             st.text(goals)
 
 with tab4:
-    tab4_break_col_1, tab4_header_col_1, tab4_header_col_2, tab4_break_col_2, tab4_header_col_3, tab4_header_col_4, tab4_break_col_3 = st.columns([1.3,0.9,0.3,0.39,0.9,0.3,1])
+    tab4_break_col_1, tab4_header_col_1, tab4_header_col_2, tab4_break_col_2, tab4_header_col_3, tab4_header_col_4, tab4_break_col_3 = st.columns([1.3,0.83,0.37,0.39,0.83,0.37,1])
     with tab4_header_col_1:
         st.title('Penalties', anchor='stat_title')
     with tab4_header_col_2:
         penalties_top = st.selectbox(label='Top', options=[5, 10, 20, 'All'], index=1, key='penalties_key')
     with tab4_header_col_3:
-        st.title('Penalties (%)', anchor='stat_title')
+        st.title('Penalties(%)', anchor='stat_title')
     with tab4_header_col_4:
         penalties_percentage_top = st.selectbox(label='Top', options=[5, 10, 20, 'All'], index=1,  key='penalties_percentage_key')
 
