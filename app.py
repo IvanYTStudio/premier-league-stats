@@ -225,7 +225,7 @@ with tab3:
             st.text(goals)
 
 with tab4:
-    tab4_break_col_1, tab4_header_col_1, tab4_header_col_2, tab4_break_col_2, tab4_header_col_3, tab4_header_col_4, tab4_break_col_3 = st.columns([0.9,0.6,0.3,0.3,1,0.3,0.7])
+    tab4_break_col_1, tab4_header_col_1, tab4_header_col_2, tab4_break_col_2, tab4_header_col_3, tab4_header_col_4, tab4_break_col_3 = st.columns([0.7,0.6,0.3,0.3,1,0.3,0.7])
     with tab4_header_col_1:
         st.title('Penalties', anchor='stat_title')
     with tab4_header_col_2:
